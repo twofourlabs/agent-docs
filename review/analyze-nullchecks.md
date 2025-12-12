@@ -1,1 +1,0 @@
-In current branch, study all the commits and based on the file changes, check which lines of code or variables have a chance of causing error in case something is null
