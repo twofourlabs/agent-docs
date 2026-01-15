@@ -209,12 +209,3 @@ export const formatChatTimestamp = (timestamp: number): string => {
   return date.toLocaleTimeString();
 };
 ```
-
-## Validation Questions
-
-Before writing code, ask yourself:
-- [ ] Am I putting business logic in the right layer?
-- [ ] Is my component just rendering, or does it contain logic?
-- [ ] Am I calling services from components or hooks? (you shouldn't)
-- [ ] Are my hooks returning stable references?
-- [ ] Is this function pure enough to be in utils/?

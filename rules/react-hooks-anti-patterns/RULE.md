@@ -144,12 +144,3 @@ useEffect(() => {
   };
 }, []);
 ```
-
-## Validation Checklist
-
-Before committing code:
-- [ ] No async functions directly in useEffect
-- [ ] All effects with subscriptions/listeners have cleanup
-- [ ] All timers/intervals are cleared in cleanup
-- [ ] API requests are cancelled on unmount when possible
-- [ ] No memory leaks from uncleaned effects

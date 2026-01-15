@@ -295,15 +295,3 @@ export const loggerMiddleware = (config) => (set, get, api) =>
 **When to create:**
 - Custom middleware for debugging, validation, or side effects
 - When NOT to create: Using built-in middleware only
-
-## Validation Checklist
-
-Before creating or modifying a store:
-- [ ] Is the store in its own folder (e.g., `authStore/`)?
-- [ ] Do I have `types.ts`, `actions.ts`, and `index.ts`?
-- [ ] Are actions in `actions.ts` receiving `set` and `get` parameters?
-- [ ] Do actions handle errors with try/catch?
-- [ ] Am I exporting optimized selectors from `index.ts`?
-- [ ] Am I using `partialize` to exclude transient state from persistence?
-- [ ] Have I avoided creating placeholder/stub files?
-- [ ] Are all optional files (initialState, selectors, middleware) actually needed?
