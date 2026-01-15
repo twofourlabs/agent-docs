@@ -182,13 +182,3 @@ type PartialUser = Partial<User>;
 // ✅ For union types
 type Status = 'pending' | 'approved' | 'rejected';
 ```
-
-## Validation Checklist
-
-Before committing code:
-- [ ] No placeholder/stub files
-- [ ] All async operations have try/catch error handling
-- [ ] No 'any' types (use proper TypeScript)
-- [ ] Long conditionals replaced with lookups/maps
-- [ ] Error states are handled and displayed to users
-- [ ] TypeScript strict mode enabled and passing

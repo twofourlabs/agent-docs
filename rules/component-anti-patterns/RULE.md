@@ -155,18 +155,3 @@ export const styles = StyleSheet.create({
   }
 });
 ```
-
-**Why It's Bad:**
-- Creates new style objects every render
-- Poor performance
-- Hard to maintain and reuse styles
-- Can't optimize with StyleSheet
-
-## Quick Validation Checklist
-
-Before committing component code:
-- [ ] No direct API calls in components
-- [ ] Business logic is in stores or custom hooks
-- [ ] Styles use StyleSheet.create, not inline objects
-- [ ] Components are under 200 lines
-- [ ] Components are focused on rendering, not logic
