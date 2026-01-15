@@ -1,3 +1,8 @@
+---
+name: react-native-migration-0.79.x-to-latest
+description: This skill provides a migration guide for react native from 0.79.x to latest 0.83.x version. 
+---
+
 # React Native 0.79.x to 0.83.x Migration Assistant
 
 ## Description
